@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(236, 167, 76);
+  }
+  
+  h1 {
+    color: rgb(53, 1, 1);
+    font-style: italic;
+  }
+  .Enjoyit {
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 15rem;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+  }
+  @media (max-width:500px) {
+    .Enjoyit{
+      margin-right: 2rem;
+    }
+    #title {
+      margin-left: 1rem;
+    }
+  }
