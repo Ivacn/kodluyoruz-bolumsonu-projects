@@ -1,0 +1,23 @@
+TR
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ENG
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] write the Binary-Search-Tree stages of the sequence.
+Example: root is x. y is located to the right of root. On the left is z, etc.
+
+Solution:
+
+- root has to be 7 because it's at the beginning of the sequence.
+- 5 is written to the left of 7 because it is less than 7.
+- 1 is written to the left of 5 because it is less than 7 and 5.
+- 8 is written to the right of 7 because it is greater than 7.
+- 3 is written to the right of 1 because it is less than 7 and 5 but greater than 1.
+- 6 is written to the right of 5 because it is less than 7 but greater than 5.
+- 0 is written to the left of 1 because it is less than 7, 5, and 1.
+- 9 is written to the right of 8 because it is greater than 7 and 8.
+- 4 is written to the right of 3 because it is less than 7 and 5 but greater than 1 and 3.
+- 2 is written to the left of 3 because it is less than 7, 5, 3 but greater than 1. 0, 0, 
+and 4 are written before 3 to make 4 equal to 1 + 1 (5 + 5), 4 and 7 are equal so they are also written in the sequence, 
+as they should be. It is only the 1 which is not written
+
